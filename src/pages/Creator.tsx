@@ -138,17 +138,20 @@ const Creator = () => {
               <div className="space-y-10">
                 <span className="text-xs font-bold uppercase tracking-[0.3em] text-gray-400">The Story</span>
                 <h2 className="text-4xl md:text-5xl font-bold tracking-tighter leading-none">
-                  From Code to <br /> <span className="text-gray-400 italic">Intelligence</span>
+                  Who Am I?
                 </h2>
                 <div className="space-y-6 text-gray-500 font-light text-lg leading-relaxed">
                   <p>
-                    Rahul Bharathi is an AI Engineer who bridges the gap between beautiful interfaces and powerful intelligence. With expertise spanning web development, mobile apps, machine learning, deep learning, and RAG architecture, he doesn't just build software; he builds the <em className="font-medium text-black">brains</em> behind it.
+                    Hey, I'm Rahul. I build things that are smart and look good.
                   </p>
                   <p>
-                    This LuxeCommerce project showcases that fusion. A luxury ecommerce storefront powered by modern React architecture, Three.js 3D experiences, smooth animations, and AI-driven design. Every pixel was crafted with intention. Every interaction was engineered to feel effortless.
+                    I'm an AI Engineer with a background in web development, mobile apps, machine learning, and deep learning. I've spent the last few years training models, building RAG pipelines, shipping React apps, and figuring out how to make software feel natural instead of clunky.
                   </p>
                   <p>
-                    When he's not training models or shipping features, Rahul is exploring the intersection of AI and creativity, pushing the boundaries of what's possible when code meets imagination.
+                    This LuxeCommerce site? I built it to show what's possible when you combine clean code with real visual design. The 3D hero scene, the scroll animations, the product cards that tilt when you hover; all of it is running in the browser with no backend. Pure frontend craft.
+                  </p>
+                  <p>
+                    I started in web dev, fell into ML &amp; DL, and now I work at the intersection of both. I don't just ship features; I care about how they feel when someone uses them. That's what separates good software from great software.
                   </p>
                 </div>
               </div>
@@ -189,12 +192,12 @@ const Creator = () => {
         <div className="max-w-3xl mx-auto px-6 text-center relative z-10">
           <ScrollReveal direction="up">
             <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-8">
-              Let&apos;s Build Something
+              Got an Idea?
               <br />
-              <span className="text-gray-500 italic">Extraordinary</span>
+              <span className="text-gray-500 italic">Let&apos;s Talk.</span>
             </h2>
             <p className="text-gray-400 font-light text-lg max-w-xl mx-auto mb-12 leading-relaxed">
-              Have a project in mind? Whether it&apos;s an AI-powered app, an ML pipeline, or a stunning web experience; let&apos;s make it happen.
+              Need an AI model trained, a web app shipped, or a RAG pipeline built? I&apos;m always up for interesting problems. Reach out &mdash; I&apos;d love to hear what you&apos;re working on.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
               <a

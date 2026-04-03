@@ -69,7 +69,7 @@ const Footer = () => {
         </div>
 
         <div className="pt-12 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] uppercase tracking-[0.2em] text-gray-500">
-          <p>© 2026 LuxeCommerce. All rights reserved.</p>
+          <p>© 2026 Rahul Bharathi. All rights reserved.</p>
           <div className="flex items-center gap-8">
             <Link to="/creator" className="hover:text-white transition-colors">Meet the Creator</Link>
           </div>
