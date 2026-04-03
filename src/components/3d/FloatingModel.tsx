@@ -35,7 +35,7 @@ const FloatingModel = () => (
     <Canvas
       camera={{ position: [0, 0, 6], fov: 45 }}
       dpr={[1, 2]}
-      style={{ position: 'absolute', inset: 0 }}
+      style={{ position: 'relative', width: '100%', height: '100%' }}
     >
       <Suspense fallback={null}>
         <ambientLight intensity={0.5} />

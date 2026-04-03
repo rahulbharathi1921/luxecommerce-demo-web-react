@@ -70,7 +70,7 @@ const Creator = () => {
               GitHub
             </a>
             <a
-              href="https://rahulbharathi1921.github.io"
+              href="https://rahulbharathiportfolio.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-white text-black px-8 py-4 rounded-full font-bold text-sm uppercase tracking-widest hover:bg-gray-200 transition-all"
