@@ -2,6 +2,7 @@ import { useRef, useState } from 'react';
 import { useSpring, animated } from 'react-spring';
 import { useGesture } from '@use-gesture/react';
 import { useNavigate } from 'react-router-dom';
+import { motion } from 'motion/react';
 import { Product } from '../../store/useCartStore';
 
 interface ProductCard3DProps {
