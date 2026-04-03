@@ -11,10 +11,10 @@ import Checkout from './pages/Checkout';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Lookbook from './pages/Lookbook';
+import Creator from './pages/Creator';
 import NewsletterModal from './components/ui/NewsletterModal';
 import CustomCursor from './components/ui/CustomCursor';
 import MouseTrail from './components/ui/MouseTrail';
-import { Link } from 'react-router-dom';
 
 // Scroll to top on route change
 const ScrollToTop = () => {
@@ -148,6 +148,7 @@ const AnimatedRoutes = () => {
             </motion.div>
           }
         />
+        <Route path="/creator" element={<Creator />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </AnimatePresence>
