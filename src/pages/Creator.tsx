@@ -160,14 +160,13 @@ const Creator = () => {
             <ScrollReveal direction="right">
               <div className="relative aspect-[4/5] rounded-[3rem] overflow-hidden group bg-gray-200">
                 <img
-                  src="https://picsum.photos/seed/rahulcreator/800/1000"
+                  src="/rahul.jpeg"
                   alt="Rahul Bharathi"
                   className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
-                  referrerPolicy="no-referrer"
-                  loading="lazy"
+                  loading="eager"
                   decoding="async"
-                  onError={(e) => { const t = e.currentTarget as HTMLImageElement; t.style.background = '#d1d5db'; t.src = ''; }}
                 />
+                <div className="absolute inset-0 bg-black/30" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
                 <div className="absolute bottom-10 left-10 right-10 text-white">
                   <p className="text-xs font-bold uppercase tracking-widest mb-2 opacity-80">AI Engineer</p>
