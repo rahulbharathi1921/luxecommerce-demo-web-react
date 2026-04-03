@@ -66,7 +66,7 @@ const Hero = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.2, delay: 0.5 }}
-          className="w-full lg:w-auto"
+          className="w-full lg:w-[500px] ml-auto"
         >
           <FloatingModel />
         </motion.div>
