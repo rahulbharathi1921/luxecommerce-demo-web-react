@@ -68,3 +68,4 @@ Deployed with [Netlify](https://www.netlify.com/).
 
 2026 LuxeCommerce. All rights reserved.
 Designed & Developed by **Rahul Bharathi** — AI Engineer
+
